@@ -1,0 +1,297 @@
+html {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+header {
+    position: relative;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 0px;
+    bottom: 849px;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    left: 0px;
+    top: 150;
+    bottom: 150;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 145px;
+    left: 0px;
+    top: 715px;
+    bottom: 0;
+    background-color: #646392;
+}
+
+.右上角快捷鍵屬性 {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.會員登入_text {
+    position: absolute;
+    left: 701px;
+    bottom: 600.74px;
+}
+
+.會員註冊_text {
+    position: absolute;
+    left: 821px;
+    bottom: 600.74;
+}
+
+.紅利查詢_text {
+    position: absolute;
+    left: 933px;
+    bottom: 600.74;
+}
+
+.購物車_text {
+    position: absolute;
+    left: 1059px;
+    bottom: 600.74;
+}
+
+.收藏清單_text {
+    position: absolute;
+    left: 1156.86px;
+    bottom: 600.74;
+}
+
+.反詐騙須知_text {
+    position: absolute;
+    left: 1280.01px;
+    bottom: 600.74;
+}
+
+.sun_top {
+    position: absolute;
+    left: 22;
+    top: 32;
+}
+
+.sun_top_text {
+    position: absolute;
+    left: 135;
+    top: 25.79;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.sun_bottom {
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    top: 9px;
+    left: 53px;
+}
+
+.sun_bottom_text {
+    top: 13;
+    left: 163;
+    position: absolute;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sun_bottom_text_day {
+    top: 77;
+    left: 163;
+    position: absolute;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.sun_bottom_text_detail {
+    top: 0;
+    left: 368;
+    position: absolute;
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.facebook_icon {
+    position: absolute;
+    top: 17px;
+    left: 1099px;
+}
+
+.facebook_text {
+    position: absolute;
+    top: 91px;
+    left: 1105px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.line_icon {
+    position: absolute;
+    top: 17px;
+    left: 1183px;
+}
+
+.line_text {
+    position: absolute;
+    top: 91px;
+    left: 1205px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.instagram_icon {
+    position: absolute;
+    top: 17px;
+    left: 1267px;
+}
+
+.instagram_text {
+    position: absolute;
+    top: 91px;
+    left: 1270px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.youtube_icon {
+    position: absolute;
+    top: 17px;
+    left: 1340px;
+}
+
+.youtube_text {
+    position: absolute;
+    top: 91px;
+    left: 1351px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+div.pay3 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+img.img1 {
+    margin-top: -20px;
+    margin-left: 125px;
+}
+
+img.img2 {
+    margin-left: 125px;
+}
+
+h1.data1 {
+    margin-left: 125px;
+}
+
+h2.data2 {
+    margin-left: 125px;
+}
+
+h2.data3 {
+    margin-left: 125px;
+}
+
+h2.data4 {
+    margin-top: 0px;
+    margin-left: 125px;
+}
+
+h2.data6 {
+    margin-top: -50px;
+    margin-left: 160px;
+}
+
+h2.data7 {
+    margin-top: -20px;
+    margin-left: 138px;
+}
+
+h2.data8 {
+    margin-top: -20px;
+    margin-left: 111px;
+}
+
+h2.data9 {
+    margin-top: -20px;
+    margin-left: 111px;
+}
+
+h2.data10 {
+    margin-top: -20px;
+    margin-left: 159px;
+}
+
+h2.data11 {
+    margin-top: -20px;
+    margin-left: 111px;
+}
+
+h2.data12 {
+    margin-top: -20px;
+    margin-left: 159px;
+}
