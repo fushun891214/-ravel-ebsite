@@ -33,8 +33,11 @@ footer {
 }
 
 .反詐騙內容 {
-    margin-top: 100px;
-    margin-left: 300px;
+    position: absolute;
+    width: 853px;
+    height: 552px;
+    left: 293px;
+    top: 243px;
     font-family: 'Actor';
     font-style: normal;
     /* font-weight: 400; */

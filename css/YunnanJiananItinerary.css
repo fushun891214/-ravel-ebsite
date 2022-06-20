@@ -201,6 +201,42 @@ hr.right {
     left: 121px;
     top: 248px;
 }
+dialog{
+    border:none;
+    box-shadow: 0 2px 6px #ccc;
+    border-radius: 10px;
+    width: 300px;
+    height: 159px;
+    margin-right:600px ;
+    top: 100px;
+    
+  }
+
+  h3.彈出視窗text{
+      text-align: center;
+  }
+
+  p.text{
+    text-align: center;
+  }
+
+.button_close{
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    position: absolute;
+    top: 140px;
+    right: 110px;
+  }
+
 
 .加入購物車_text {
     position: absolute;

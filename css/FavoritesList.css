@@ -32,6 +32,22 @@ footer {
     background-color: #646392;
 }
 
+.住宿介紹按鈕 {
+    position: absolute;
+    width: 173.4px;
+    height: 49.88px;
+    left: 121px;
+    top: 248px;
+}
+
+.行程介紹按鈕 {
+    position: absolute;
+    width: 173.4px;
+    height: 49.88px;
+    left: 121px;
+    top: 387px;
+}
+
 .右上角快捷鍵屬性 {
     font-family: 'Actor';
     font-style: normal;
@@ -235,4 +251,189 @@ footer {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+}
+
+div.title1 {
+    position: absolute;
+    width: 154.1;
+    height: 38.88;
+    left: 244;
+    top: 183;
+}
+
+div.title2 {
+    position: absolute;
+    width: 154.01;
+    height: 38.88;
+    left: 244;
+    top: 529;
+}
+
+h1.title1_text {
+    position: absolute;
+    width: 158.4;
+    height: 30;
+    left: 260;
+    top: 156;
+}
+
+div.collect1 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 257;
+    top: 247;
+}
+
+h2.collect1_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 260;
+    top: 456;
+    text-align: center
+}
+
+div.collect2 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 471;
+    top: 247;
+}
+
+h2.collect2_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 472;
+    top: 456;
+    text-align: center
+}
+
+div.collect3 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 687;
+    top: 247;
+}
+
+h2.collect3_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 687;
+    top: 456;
+    text-align: center
+}
+
+div.collect4 {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 902;
+    top: 247;
+    text-align: center
+}
+
+h2.collect4_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 902;
+    top: 456;
+    text-align: center
+}
+
+h1.title2_text {
+    position: absolute;
+    width: 158.4;
+    height: 30;
+    left: 260;
+    top: 512;
+}
+
+div.collect5 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 257;
+    top: 588;
+}
+
+h2.collect5_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 257;
+    top: 792;
+    text-align: center
+}
+
+div.collect6 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 472;
+    top: 588;
+}
+
+h2.collect6_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 472;
+    top: 792;
+    text-align: center
+}
+
+div.collect7 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 687;
+    top: 588;
+}
+
+h2.collect7_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 687;
+    top: 792;
+    text-align: center
+}
+
+div.collect8 {
+    position: absolute;
+    width: 200;
+    height: 200;
+    left: 902;
+    top: 588;
+}
+
+h2.collect8_text {
+    position: absolute;
+    width: 200;
+    height: 55;
+    left: 902;
+    top: 792;
+    text-align: center
+}
+
+div.dot1 {
+    position: absolute;
+    width: 50;
+    height: 50;
+    left: 1142;
+    top: 322;
+}
+
+div.dot2 {
+    position: absolute;
+    width: 50;
+    height: 50;
+    left: 1142;
+    top: 664;
 }

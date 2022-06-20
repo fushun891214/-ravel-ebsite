@@ -1,35 +1,14 @@
-html {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-}
-
-header {
-    position: relative;
-    width: 1440px;
-    height: 164px;
-    left: 0px;
-    top: 0px;
-    bottom: 849px;
-}
-
-body {
-    position: relative;
-    width: 1440px;
-    height: 724px;
-    left: 0px;
-    top: 150;
-    bottom: 150;
-}
-
-footer {
-    position: relative;
-    width: 1440px;
-    height: 145px;
-    left: 0px;
-    top: 715px;
-    bottom: 0;
-    background-color: #646392;
+div.search {
+    border-style: solid;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    text-align: center;
 }
 
 .右上角快捷鍵屬性 {
@@ -83,6 +62,60 @@ footer {
     left: 1280.01px;
     top: 72 px;
     bottom: 61.74;
+}
+
+html {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+header {
+    position: relative;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 0px;
+    bottom: 849px;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    left: 0px;
+    top: 150;
+    bottom: 150;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 145px;
+    left: 0px;
+    top: 715px;
+    bottom: 0;
+    background-color: #646392;
+}
+
+.右上角快捷鍵 {
+    position: absolute;
+    left: 701;
+    top: 72;
+    bottom: 59.72;
+    white-space: nowrap;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.右上角快捷鍵文字 {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
 
 .sun_top {
@@ -226,7 +259,7 @@ footer {
 .youtube_text {
     position: absolute;
     top: 91px;
-    left: 1351px;
+    left: 1356px;
     font-family: 'Actor';
     font-style: normal;
     font-weight: 400;
@@ -235,4 +268,109 @@ footer {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+}
+
+h1.search {
+    position: absolute;
+    width: 132px;
+    height: 45px;
+    left: 316px;
+    top: 290px;
+}
+
+div.register {
+    position: absolute;
+    width: 772px;
+    height: 425px;
+    left: 315px;
+    top: 380px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+h2.text {
+    position: absolute;
+    width: 546px;
+    height: 57px;
+    left: 424px;
+    top: 390px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+img.one {
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    left: 407px;
+    top: 493px;
+}
+
+img.two {
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    left: 761px;
+    top: 493px;
+}
+
+img.arrow {
+    position: absolute;
+    width: 80px;
+    left: 649px;
+    top: 575px;
+}
+
+div.acc {
+    position: absolute;
+    width: 173px;
+    height: 88px;
+    left: 450px;
+    top: 561px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+div.acc1 {
+    position: absolute;
+    width: 173px;
+    height: 88px;
+    left: 785px;
+    top: 562px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    width: 182px;
+    height: 45px;
+    left: 885px;
+    top: 744px;
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    text-decoration: none;
 }

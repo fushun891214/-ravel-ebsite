@@ -27,7 +27,7 @@ footer {
     width: 1440px;
     height: 145px;
     left: 0px;
-    top: 715px;
+    top: 205px;
     bottom: 0;
     background-color: #646392;
 }
@@ -46,43 +46,37 @@ footer {
 .會員登入_text {
     position: absolute;
     left: 701px;
-    top: 72 px;
-    bottom: 61.74;
+    bottom: 600.74px;
 }
 
 .會員註冊_text {
     position: absolute;
     left: 821px;
-    top: 72 px;
-    bottom: 61.74;
+    bottom: 600.74;
 }
 
 .紅利查詢_text {
     position: absolute;
     left: 933px;
-    top: 72 px;
-    bottom: 61.74;
+    bottom: 600.74;
 }
 
 .購物車_text {
     position: absolute;
     left: 1059px;
-    top: 72 px;
-    bottom: 61.74;
+    bottom: 600.74;
 }
 
 .收藏清單_text {
     position: absolute;
     left: 1156.86px;
-    top: 72 px;
-    bottom: 61.74;
+    bottom: 600.74;
 }
 
 .反詐騙須知_text {
     position: absolute;
     left: 1280.01px;
-    top: 72 px;
-    bottom: 61.74;
+    bottom: 600.74;
 }
 
 .sun_top {
@@ -93,9 +87,8 @@ footer {
 
 .sun_top_text {
     position: absolute;
-    left: 131;
-    top: 51.79;
-    bottom: 36.63;
+    left: 135;
+    top: 25.79;
     font-family: 'Alfa Slab One';
     font-style: normal;
     font-weight: 400;
@@ -235,4 +228,63 @@ footer {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+}
+
+h1.choose {
+    padding-left: 120px;
+}
+
+div.checkout {
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 130px;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+}
+
+div.one {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div.two {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div.three {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div.pay1 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+div.name {
+    margin-left: 20px;
+}
+
+div.line19 {
+    margin-left: 20px;
+}
+
+.button {
+    margin-left: 1050px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
 }

@@ -1,9 +1,3 @@
-html {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-}
-
 header {
     position: relative;
     width: 1440px;
@@ -27,7 +21,7 @@ footer {
     width: 1440px;
     height: 145px;
     left: 0px;
-    top: 715px;
+    top: 30px;
     bottom: 0;
     background-color: #646392;
 }
@@ -231,7 +225,7 @@ footer {
 }
 
 div.pay3 {
-    margin-top: 40px;
+    margin-top: -20px;
     margin-left: 100px;
 }
 
@@ -294,4 +288,29 @@ h2.data11 {
 h2.data12 {
     margin-top: -20px;
     margin-left: 159px;
+}
+
+input.input1 {
+    padding-left: 20px;
+}
+
+.button {
+    margin-left: 1250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+div.back {
+    margin-top: -30px;
 }

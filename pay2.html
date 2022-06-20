@@ -5,7 +5,7 @@
     <img src="img/header.png">
     <h1>
         <div class="sun_top">
-            <img src="img/sun.png" />
+            <a href="index.html"><img src="img/sun.png"></a>
         </div>
         <p class="sun_top_text">
             陽光旅遊
@@ -31,6 +31,9 @@
             反詐騙須知
         </a>
     </div>
+    <div class="back">
+        <a href="ShoppingCart.html"><img src="img/left arrow.png"></a>
+    </div>
     <div class="pay2">
         <img src="img/資料填寫-結帳.png">
     </div>
@@ -41,28 +44,30 @@
 
 <body>
     <h1 class="data">訂購人資料</h1>
-    <h2 class="name">姓名：<input type="line" name="type" value="必填"></h2>
-    <h2 class="name1">E-mail：<input type="line" name="type" value="必填"></h2>
-    <h2 class="name2">聯絡電話：<input type="line" name="type" value="必填"></h2>
-    <h2 class="name3">手機電話：<input type="line" name="type" value="必填"></h2>
-    <h2 class="name4">地址：<input type="line" name="type" value="必填"></h2>
+    <h2 class="name">姓名：<input type="line" name="type" placeholder="必填" style="width: 117px;"></h2>
+    <h2 class="name1">E-mail：<input type="line" name="type" placeholder="必填" style="width: 198px;"></h2>
+    <h2 class="name2">聯絡電話：<input type="line" name="type" placeholder="必填" style="width: 138px;"></h2>
+    <h2 class="name3">手機電話：<input type="line" name="type" placeholder="必填" style="width: 138px;"></h2>
+    <h2 class="name4">地址：<input type="line" name="type" placeholder="必填" style="width: 376px;"></h2>
 
     <h1 class="data1">紅利點數&emsp;&emsp;您目前擁有100點可進行折抵，一點可折抵一元新台幣</h1>
-    <h2 class="name5">使用紅利點數：<input class="line5" type="line" name="type" value="選填">&ensp;點</h2>
+    <h2 class="name5">使用紅利點數：<input class="line5" type="line" name="type" placeholder="選填" style="width: 117px;">&ensp;點</h2>
 
     <h1 class="data2">付款方式</h1>
     <h2 class="circle1">
-        <input type="radio" name="type" value="必填">&emsp; 信用卡
-        <img src="img/信用卡付費.png">&emsp; 卡號：
-        <input type="line" name="type" value="">&emsp; 有效期限：
-        <input type="line" name="type" value="">&ensp; 檢核碼：
-        <input type="line" name="type" value="">
+        <input type="radio" name="type" value="必填">&ensp;信用卡
+        <img src="img/信用卡付費.png">&nbsp; 卡號：
+        <input class="input1" type="password" name="type" value="" style="width: 77.49px;">&nbsp;-
+        <input type="password" name="type" value="" style="width: 77.49px;">&nbsp;-
+        <input type="password" name="type" value="" style="width: 77.49px;">&nbsp;-
+        <input type="line" name="type" value="" style="width: 77.49px;">&nbsp; 有效期限：
+        <input type="line" name="type" value="" style="width: 71px;">&nbsp; 檢核碼：
+        <input type="line" name="type" value="" style="width: 47px;">
     </h2>
-    <h2 class="circle2"><input type="radio" name="type" value="必填">&emsp;現金</h2>
-    <h2 class="circle3"><input type="radio" name="type" value="必填">&emsp;行動支付&emsp;
-        <img src="img/行動支付.png">
-    </h2>
-    <button class="button">確定</button>
+    <h2 class="circle2"><input type="radio" name="type" value="必填">&ensp;現金</h2>
+    <h2 class="circle3"><input type="radio" name="type" value="必填">&ensp;行動支付&emsp;</h2>
+    <img class="img1" src="img/行動支付.png">
+    <a href="pay3.html"> <button class="button">結帳</button></a>
 </body>
 
 <footer>

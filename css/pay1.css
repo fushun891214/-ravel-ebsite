@@ -27,7 +27,7 @@ footer {
     width: 1440px;
     height: 145px;
     left: 0px;
-    top: 715px;
+    top: 510px;
     bottom: 0;
     background-color: #646392;
 }
@@ -231,11 +231,7 @@ footer {
 }
 
 h1.choose {
-    position: absolute;
-    width: 304.51px;
-    height: 29px;
-    left: 115.96px;
-    top: 335px;
+    padding-left: 120px;
 }
 
 div.checkout {
@@ -264,17 +260,12 @@ div.three {
 }
 
 div.pay1 {
-    position: absolute;
-    left: 96px;
-    top: 222px;
+    margin-top: 40px;
+    margin-left: 100px;
 }
 
 div.name {
-    position: absolute;
-    width: 1214.2px;
-    height: 411px;
-    left: 104.4px;
-    top: 335px;
+    margin-left: 20px;
 }
 
 div.line19 {

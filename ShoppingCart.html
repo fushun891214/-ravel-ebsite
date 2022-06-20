@@ -1,11 +1,11 @@
 <html>
 <meta charset="utf-8">
-<header>
-    <img src="/img/header.png">
-    <link rel=stylesheet type="text/css" href="/css/ShoppingCart.css">
+
+<head>
+    <img src="img/header.png">
     <h1>
         <div class="sun_top">
-            <img src="/img/sun.png" />
+            <a href="index.html"><img src="img/sun.png"></a>
         </div>
         <p class="sun_top_text">
             陽光旅遊
@@ -31,17 +31,102 @@
             反詐騙須知
         </a>
     </div>
-</header>
+    <div class="pay1">
+        <img src="img/方案確認-結帳.png">
+    </div>
+
+    <title>方案確認-結帳</title>
+    <link rel=stylesheet type="text/css" href="css/ShoppingCart.css">
+</head>
 
 <body>
-    <p>
-        我是購物車
-    </p>
+    <h1 class="choose">購物車</h1>
+    <div class="checkout">
+        <div class="name">
+            <h3>
+                方案名稱&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 方案價格&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 方案選擇&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp; 成人&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 兒童(8折)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                小計
+            </h3>
+        </div>
+        <div class="line19">
+            <img src="img/Line19.png">
+        </div>
+        <div class="one">
+            <h3>
+                山林旅遊-太魯閣兩日遊&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; $4,990/人&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                <input type="checkbox" name="type" value="type">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+                <select onChange="renew(this.selectedIndex);">
+                <option value="0" disabled selected>0人</option>
+                <option>1人</option>
+                <option>2人</option>
+                <option>3人</option>
+                <option>4人</option>
+                <option>5人</option>
+                <option>5人以上</option></select>&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+                <select onChange="renew(this.selectedIndex);">
+                    <option value="0" disabled selected>0人</option>
+                    <option>1人</option>
+                    <option>2人</option>
+                    <option>3人</option>
+                    <option>4人</option>
+                    <option>5人</option>
+                    <option>5人以上</option>
+                </select>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;????
+            </h3>
+        </div>
+        <div class="two">
+            <h3>
+                原民旅遊-武界部落秘境二日旅遊&emsp;&emsp;&emsp;&ensp; $5,620/人&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                <input type="checkbox" name="type" value="type">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+                <select onChange="renew(this.selectedIndex);">
+                <option value="0" disabled selected>0人</option>
+                <option>1人</option>
+                <option>2人</option>
+                <option>3人</option>
+                <option>4人</option>
+                <option>5人</option>
+                <option>5人以上</option></select>&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+                <select onChange="renew(this.selectedIndex);">
+                    <option value="0" disabled selected>0人</option>
+                    <option>1人</option>
+                    <option>2人</option>
+                    <option>3人</option>
+                    <option>4人</option>
+                    <option>5人</option>
+                    <option>5人以上</option>
+                </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ????
+            </h3>
+        </div>
+        <div class="three">
+            <h3>
+                原民旅遊-花蓮獵人學校生活一日體驗&emsp;&ensp; $2,800/人&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                <input type="checkbox" name="type" value="type">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+                <select onChange="renew(this.selectedIndex);">
+                <option value="0" disabled selected>0人</option>
+                <option>1人</option>
+                <option>2人</option>
+                <option>3人</option>
+                <option>4人</option>
+                <option>5人</option>
+                <option>5人以上</option></select>&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+                <select onChange="renew(this.selectedIndex);">
+                    <option value="0" disabled selected>0人</option>
+                    <option>1人</option>
+                    <option>2人</option>
+                    <option>3人</option>
+                    <option>4人</option>
+                    <option>5人</option>
+                    <option>5人以上</option>
+                </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ????
+            </h3>
+            <a href="pay2.html"> <button class="button">確定</button></a>
+        </div>
+    </div>
 </body>
 
 <footer>
     <div class="sun_bottom">
-        <img src="/img/sun.png" />
+        <img src="img/sun.png" />
     </div>
     <h2 class="sun_bottom_text">
         陽光旅遊
@@ -57,25 +142,25 @@
         <br> 電話： 02-2881-9471</br>
     </p>
     <div class="facebook_icon">
-        <img src="/img/facebook.png" />
+        <img src="img/facebook.png" />
     </div>
     <p class="facebook_text">
         Facebook
     </p>
     <div class="line_icon">
-        <img src="/img/line.png" />
+        <img src="img/line.png" />
     </div>
     <p class="line_text">
         Line
     </p>
     <div class="instagram_icon">
-        <img src="/img/instagram.png" />
+        <img src="img/instagram.png" />
     </div>
     <p class="Instagram_text">
         Instagram
     </p>
     <div class="youtube_icon">
-        <img src="/img/youtube.png" />
+        <img src="img/youtube.png" />
     </div>
     <p class="Youtube_text">
         Youtube

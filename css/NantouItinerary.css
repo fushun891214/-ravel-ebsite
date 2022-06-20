@@ -1,0 +1,535 @@
+html {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+header {
+    position: relative;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 0px;
+    bottom: 849px;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    left: 0px;
+    top: 150;
+    bottom: 150;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 145px;
+    left: 0px;
+    top: 715px;
+    bottom: 0;
+    background-color: #646392;
+}
+
+div.register {
+    margin: 65px 350px 80px;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 700px;
+    height: 250px;
+}
+
+h2.member {
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+
+.button {
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.image.line {
+    position: absolute;
+    top: 630px;
+    left: 600px;
+    width: 75px;
+    height: 75px;
+}
+
+.image.facebook {
+    position: absolute;
+    top: 630px;
+    left: 691px;
+    width: 75px;
+    height: 75px;
+}
+
+.image.google {
+    position: absolute;
+    top: 630px;
+    right: 580px;
+    width: 75px;
+    height: 75px;
+}
+
+h3.or {
+    position: absolute;
+    top: 580px;
+    left: 720px;
+}
+
+hr.left {
+    position: absolute;
+    top: 600px;
+    left: 370px;
+}
+
+hr.right {
+    position: absolute;
+    top: 600px;
+    right: 350px;
+}
+
+.右上角快捷鍵屬性 {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.會員登入_text {
+    position: absolute;
+    left: 701px;
+    top: 72 px;
+    bottom: 61.74;
+}
+
+.會員註冊_text {
+    position: absolute;
+    left: 821px;
+    top: 72 px;
+    bottom: 61.74;
+}
+
+.紅利查詢_text {
+    position: absolute;
+    left: 933px;
+    top: 72 px;
+    bottom: 61.74;
+}
+
+.購物車_text {
+    position: absolute;
+    left: 1059px;
+    top: 72 px;
+    bottom: 61.74;
+}
+
+.收藏清單_text {
+    position: absolute;
+    left: 1156.86px;
+    top: 72 px;
+    bottom: 61.74;
+}
+
+.反詐騙須知_text {
+    position: absolute;
+    left: 1280.01px;
+    top: 72 px;
+    bottom: 61.74;
+}
+
+.上一頁_btn {
+    background-color: Transparent;
+    border: none;
+    /* Your can add different style/properties of button Here*/
+    cursor: pointer;
+}
+
+.上一頁_button {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 14px;
+    top: 171px;
+}
+
+.行程方案_text {
+    position: absolute;
+    top: -30px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.行程方案_btn {
+    border: none;
+    width: 154.01px;
+    height: 38.88px;
+    background: #FFDE9F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.行程方案_button {
+    position: absolute;
+    width: 173.4px;
+    height: 49.88px;
+    left: 121px;
+    top: 248px;
+}
+
+dialog{
+    border:none;
+    box-shadow: 0 2px 6px #ccc;
+    border-radius: 10px;
+    width: 300px;
+    height: 159px;
+    margin-right:600px ;
+    top: 100px;
+    
+  }
+
+  h3.彈出視窗text{
+      text-align: center;
+  }
+
+  p.text{
+    text-align: center;
+  }
+
+.button_close{
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    position: absolute;
+    top: 140px;
+    right: 110px;
+  }
+
+
+.加入購物車_text {
+    position: absolute;
+    left: 28.76;
+    right: 26.38;
+    top: 1;
+    bottom: 6.2;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.加入購物車_btn {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    padding-right: 25px;
+    padding-left: 25px;
+    background: #24386A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.加入購物車_button {
+    position: absolute;
+    width: 186px;
+    height: 45;
+    height: 49.88px;
+    left: 1099px;
+    top: 254px;
+}
+
+.topic {
+    position: absolute;
+    width: 327px;
+    height: 33px;
+    left: 294px;
+    top: 259px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.Attractions_text {
+    position: absolute;
+    width: 709px;
+    height: 152px;
+    left: 132px;
+    top: 330px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.transportation_text {
+    position: absolute;
+    width: 598px;
+    height: 183px;
+    left: 132px;
+    top: 482px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.stay_text {
+    position: absolute;
+    width: 200px;
+    height: 201px;
+    left: 132px;
+    top: 649px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.price_text {
+    position: absolute;
+    width: 276px;
+    height: 72px;
+    left: 665px;
+    top: 263px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #BC1C1C;
+}
+
+.img_42 {
+    position: absolute;
+    width: 308px;
+    height: 245px;
+    left: 993px;
+    top: 318px;
+}
+
+.img_43 {
+    position: absolute;
+    width: 274px;
+    height: 249px;
+    left: 1069px;
+    top: 581px;
+}
+
+.img_44 {
+    position: absolute;
+    width: 279px;
+    height: 249px;
+    left: 745px;
+    top: 581px;
+}
+
+.sun_top {
+    position: absolute;
+    left: 22;
+    top: 32;
+}
+
+.sun_top_text {
+    position: absolute;
+    left: 131;
+    top: 51.79;
+    bottom: 36.63;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.sun_bottom {
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    top: 9px;
+    left: 53px;
+}
+
+.sun_bottom_text {
+    top: 13;
+    left: 163;
+    position: absolute;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sun_bottom_text_day {
+    top: 77;
+    left: 163;
+    position: absolute;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.sun_bottom_text_detail {
+    top: 0;
+    left: 368;
+    position: absolute;
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.facebook_icon {
+    position: absolute;
+    top: 17px;
+    left: 1099px;
+}
+
+.facebook_text {
+    position: absolute;
+    top: 91px;
+    left: 1105px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.line_icon {
+    position: absolute;
+    top: 17px;
+    left: 1183px;
+}
+
+.line_text {
+    position: absolute;
+    top: 91px;
+    left: 1205px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.instagram_icon {
+    position: absolute;
+    top: 17px;
+    left: 1267px;
+}
+
+.instagram_text {
+    position: absolute;
+    top: 91px;
+    left: 1270px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.youtube_icon {
+    position: absolute;
+    top: 17px;
+    left: 1340px;
+}
+
+.youtube_text {
+    position: absolute;
+    top: 91px;
+    left: 1351px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

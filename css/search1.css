@@ -1,0 +1,346 @@
+html {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+header {
+    position: relative;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 0px;
+    bottom: 849px;
+}
+
+.右上角快捷鍵屬性 {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.會員登入_text {
+    position: absolute;
+    left: 701px;
+    top: 72px;
+    bottom: 61.74;
+}
+
+.會員註冊_text {
+    position: absolute;
+    left: 821px;
+    top: 72px;
+    bottom: 61.74;
+}
+
+.紅利查詢_text {
+    position: absolute;
+    left: 933px;
+    top: 72px;
+    bottom: 61.74;
+}
+
+.購物車_text {
+    position: absolute;
+    left: 1059px;
+    top: 72px;
+    bottom: 61.74;
+}
+
+.收藏清單_text {
+    position: absolute;
+    left: 1156.86px;
+    top: 72px;
+    bottom: 61.74;
+}
+
+.反詐騙須知_text {
+    position: absolute;
+    left: 1280.01px;
+    top: 72px;
+    bottom: 61.74;
+}
+
+h2.choose {
+    padding-left: 16%;
+}
+
+div.search {
+    border-style: solid;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    left: 0px;
+    top: 150;
+    bottom: 150;
+}
+
+div.search {
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    padding-left: 1.5%;
+}
+
+.button {
+    cursor: pointer;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    background: #24386a;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.button:active {
+    background-color: #24386a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div.result {
+    margin-left: 16%;
+    margin-top: 1%;
+    width: 234.4px;
+    height: 29px;
+    left: 152px;
+    top: 596px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+div.Group99 {
+    margin-top: 10%;
+    margin-left: 4.5%;
+    position: absolute;
+    width: 852px;
+    height: 269px;
+    left: 239px;
+    top: 619px;
+}
+
+.Menu {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1279px;
+    top: 865px;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 145px;
+    left: 0px;
+    top: 310px;
+    bottom: 0;
+    background-color: #646392;
+}
+
+.右上角快捷鍵 {
+    position: absolute;
+    left: 701;
+    top: 72;
+    bottom: 59.72;
+    white-space: nowrap;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.右上角快捷鍵文字 {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.sun_top {
+    position: absolute;
+    left: 22;
+    top: 32;
+}
+
+.sun_top_text {
+    position: absolute;
+    left: 131;
+    top: 51.79;
+    bottom: 36.63;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.sun_bottom {
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    top: 9px;
+    left: 53px;
+}
+
+.sun_bottom_text {
+    top: 13;
+    left: 163;
+    position: absolute;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sun_bottom_text_day {
+    top: 77;
+    left: 163;
+    position: absolute;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.sun_bottom_text_detail {
+    top: 0;
+    left: 368;
+    position: absolute;
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.facebook_icon {
+    position: absolute;
+    top: 17px;
+    left: 1099px;
+}
+
+.facebook_text {
+    position: absolute;
+    top: 91px;
+    left: 1105px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.line_icon {
+    position: absolute;
+    top: 17px;
+    left: 1183px;
+}
+
+.line_text {
+    position: absolute;
+    top: 91px;
+    left: 1205px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.instagram_icon {
+    position: absolute;
+    top: 17px;
+    left: 1267px;
+}
+
+.instagram_text {
+    position: absolute;
+    top: 91px;
+    left: 1270px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.youtube_icon {
+    position: absolute;
+    top: 17px;
+    left: 1340px;
+}
+
+.youtube_text {
+    position: absolute;
+    top: 91px;
+    left: 1356px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

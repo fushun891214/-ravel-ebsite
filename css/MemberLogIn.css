@@ -22,32 +22,115 @@ body {
     bottom: 150;
 }
 
-footer {
-    position: relative;
-    width: 1440px;
-    height: 145px;
-    left: 0px;
-    top: 715px;
-    bottom: 0;
-    background-color: #646392;
-}
-
 div.register {
-    margin: 65px 350px 80px;
-    padding: 15px 25px;
+    position: absolute;
+    width: 622px;
+    height: 237.2px;
+    left: 409px;
+    top: 367.8px;
     border: 2px solid black;
     border-radius: 20px;
-    width: 700px;
-    height: 250px;
+    /*
+    
+    padding: 15px 25px;
+    
+    */
 }
 
 h2.member {
-    position: relative;
-    top: 50px;
-    left: 350px;
+    position: absolute;
+    width: 142px;
+    height: 27.41px;
+    left: 410px;
+    top: 300px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.email_text {
+    position: absolute;
+    width: 124px;
+    height: 22.68px;
+    left: 437px;
+    top: 373px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.email_text_box {
+    position: absolute;
+    width: 198px;
+    height: 22.68px;
+    left: 561px;
+    top: 396px;
+}
+
+.member_password {
+    position: absolute;
+    width: 124px;
+    height: 22.68px;
+    left: 437px;
+    top: 424.03px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.member_password_box {
+    position: absolute;
+    width: 180px;
+    height: 22.68px;
+    left: 561px;
+    top: 449.09px;
+}
+
+.verification_code {
+    position: absolute;
+    width: 101px;
+    height: 29.3px;
+    left: 437px;
+    top: 470.34px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.verification_code_box {
+    position: absolute;
+    width: 73px;
+    height: 23.63px;
+    left: 528px;
+    top: 500px;
 }
 
 .button {
+    position: absolute;
+    width: 129px;
+    height: 45px;
+    left: 886px;
+    top: 543px;
     cursor: pointer;
     -webkit-border-radius: 10;
     -moz-border-radius: 10;
@@ -56,54 +139,165 @@ h2.member {
     font-size: 24px;
     font-family: 微軟正黑體;
     background: #24386a;
-    padding-right: 25px;
-    padding-left: 25px;
     text-decoration: none;
-    position: absolute;
-    bottom: 165px;
-    left: 980px;
 }
 
-.image.line {
+.verification {
+    position: absolute;
+    width: 93px;
+    height: 38.53px;
+    left: 732px;
+    top: 492px;
+}
+
+.remember_me_box {
+    position: absolute;
+    width: 12px;
+    height: 11.34px;
+    left: 437px;
+    top: 553px;
+}
+
+.remember_me_text {
+    position: absolute;
+    height: 22.68px;
+    left: 459px;
+    top: 539px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Forgot_password_Text {
+    position: absolute;
+    width: 96px;
+    height: 22.68px;
+    left: 528px;
+    top: 552px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.Register_Account_Text {
+    position: absolute;
+    width: 96px;
+    height: 22.68px;
+    left: 624px;
+    top: 552px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.image_line {
+    position: absolute;
+    width: 73px;
+    height: 74px;
+    left: 595px;
+    top: 683px;
+    /*
     position: absolute;
     top: 630px;
     left: 600px;
     width: 75px;
     height: 75px;
+    */
 }
 
-.image.facebook {
+.image_facebook {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 772px;
+    top: 683px;
+    /*
     position: absolute;
     top: 630px;
     left: 691px;
     width: 75px;
     height: 75px;
+    */
 }
 
-.image.google {
+.image_google {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 683px;
+    top: 683px;
+    /*
     position: absolute;
     top: 630px;
     right: 580px;
     width: 75px;
     height: 75px;
+    */
 }
 
 h3.or {
     position: absolute;
-    top: 580px;
-    left: 720px;
+    width: 75.62px;
+    height: 30.25px;
+    left: 712px;
+    top: 635px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 hr.left {
     position: absolute;
+    width: 209.84px;
+    height: 0px;
+    left: 426px;
+    top: 656.12px;
+    border: 3px solid #000000;
+    /*
+    position: absolute;
     top: 600px;
     left: 370px;
+    */
 }
 
 hr.right {
     position: absolute;
+    width: 209.84px;
+    height: 0px;
+    left: 805.03px;
+    top: 656.12px;
+    border: 3px solid #000000;
+    /*
+    position: absolute;
     top: 600px;
     right: 350px;
+    */
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 145px;
+    left: 0px;
+    top: 715px;
+    bottom: 0;
+    background-color: #646392;
 }
 
 .右上角快捷鍵屬性 {

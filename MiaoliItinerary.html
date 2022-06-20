@@ -31,11 +31,12 @@
             反詐騙須知
         </a>
     </div>
+    <title>苗栗行程</title>
 </header>
 
 <body>
     <div class="上一頁_button">
-        <a href="Anti-fraudNotice.html">
+        <a href="CollectMiaoli.html">
             <!--連結其他html-->
             <button class="上一頁_btn">
             <img src="img\left arrow.png" >
@@ -71,11 +72,27 @@
         大人：5580元/人<br> 小孩：4464元/人
     </div>
     <div class="加入購物車_button">
-        <a href="pay1.html">
-            <button class="加入購物車_btn">
+
+        <button id="show" class="加入購物車_btn">
             <p class="加入購物車_text">加入購物車</p>
         </button>
-        </a>
+        <dialog id="infoModal">
+            <h3 class="彈出視窗text">提醒</h3>
+            <p class="text">已加入購物車</p>
+            <button class="button_close" id="close">確認</button>
+            </button>
+        </dialog>
+        <script>
+            let btn = document.querySelector("#show");
+            let infoModal = document.querySelector("#infoModal");
+            let close = document.querySelector("#close");
+            btn.addEventListener("click", function() {
+                infoModal.showModal()
+            });
+            close.addEventListener("click", function() {
+                infoModal.close()
+            });
+        </script>
     </div>
     <div class="img_42">
         <img src="img\Rectangle 42.png">
